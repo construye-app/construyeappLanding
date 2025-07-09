@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+:root {
+  --background: 0 0% 100%; /* blanco */
+  --foreground: 255 30% 10%; /* gris oscuro para texto */
+  --card: 0 0% 100%;
+  --card-foreground: 255 30% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 255 30% 10%;
+  --primary: 262 100% 80%; /* lila claro */
+  --primary-foreground: 255 30% 10%;
+  --secondary: 262 100% 97%; /* lila muy claro */
+  --secondary-foreground: 255 30% 10%;
+  --muted: 262 100% 97%;
+  --muted-foreground: 262 20% 40%;
+  --accent: 262 100% 90%;
+  --accent-foreground: 255 30% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 262 30% 90%;
+  --input: 262 30% 90%;
+  --ring: 262 100% 80%;
+  --radius: 0.5rem;
+  --sidebar-background: 262 100% 97%;
+  --sidebar-foreground: 255 30% 10%;
+  --sidebar-primary: 262 100% 80%;
+  --sidebar-primary-foreground: 255 30% 10%;
+  --sidebar-accent: 262 100% 90%;
+  --sidebar-accent-foreground: 255 30% 10%;
+  --sidebar-border: 262 30% 90%;
+  --sidebar-ring: 262 100% 80%;
+}
+.dark {
+  --background: 282 17% 10%; /* #18151c */
+  --foreground: 0 0% 98%;
+  --card: 282 17% 13%; /* #221d29 */
+  --card-foreground: 0 0% 98%;
+  --popover: 282 17% 13%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 262 100% 80%; /* lila claro */
+  --primary-foreground: 0 0% 10%;
+  --secondary: 282 17% 15%; /* #28232e */
+  --secondary-foreground: 0 0% 98%;
+  --muted: 282 17% 15%;
+  --muted-foreground: 262 20% 70%;
+  --accent: 262 100% 30%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 282 17% 15%; /* #28232e */
+  --input: 282 17% 15%;
+  --ring: 262 100% 80%;
+  --sidebar-background: 282 17% 10%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-primary: 262 100% 80%;
+  --sidebar-primary-foreground: 0 0% 10%;
+  --sidebar-accent: 262 100% 30%;
+  --sidebar-accent-foreground: 0 0% 98%;
+  --sidebar-border: 282 17% 15%;
+  --sidebar-ring: 262 100% 80%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}

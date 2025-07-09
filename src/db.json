@@ -1,0 +1,256 @@
+{
+  "en": {
+    "navigation": {
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "about": "About Us",
+      "contact": "Contact",
+      "quote": "Quote your project"
+    },
+    "hero": {
+      "title": "We build the applications that drive your business",
+      "subtitle": "Transform your ideas into reality with our expert team. We specialize in creating custom software solutions tailored to your unique business needs.",
+      "form_placeholder": "Your Email",
+      "form_button": "Submit"
+    },
+    "services": {
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "Web Development",
+          "description": "Crafting responsive and scalable web applications using the latest technologies."
+        },
+        {
+          "title": "Custom Software Development",
+          "description": "Building bespoke software solutions to address complex business challenges."
+        },
+        {
+          "title": "UI/UX Design",
+          "description": "Creating intuitive and engaging user experiences that drive user satisfaction."
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "items": [
+        {
+          "title": "Project Alpha",
+          "description": "A cutting-edge e-commerce platform built with React and Node.js.",
+          "link": "View case study"
+        },
+        {
+          "title": "Project Beta",
+          "description": "A robust CRM system developed using Python and Django.",
+          "link": "View case study"
+        },
+        {
+          "title": "Project Gamma",
+          "description": "An innovative mobile app designed for iOS and Android using Flutter.",
+          "link": "View case study"
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "items": [
+        {
+          "title": "Expert Team",
+          "description": "Our team comprises seasoned developers, designers, and project managers dedicated to delivering excellence."
+        },
+        {
+          "title": "Agile Methodology",
+          "description": "We employ agile development practices to ensure flexibility, transparency, and rapid iteration."
+        },
+        {
+          "title": "Customer Focus",
+          "description": "We prioritize your needs and work closely with you throughout the development process."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        {
+          "name": "Isabella Rossi",
+          "title": "CEO of Innovate Solutions",
+          "quote": "\"Construye transformed our vision into a reality. Their expertise and dedication are unmatched.\""
+        },
+        {
+          "name": "Lucas Silva",
+          "title": "Founder of NextGen Tech",
+          "quote": "\"The team's agile approach kept us involved and ensured the final product exceeded our expectations.\""
+        },
+        {
+          "name": "Sofia Bianchi",
+          "title": "Director of Operations at Global Enterprises",
+          "quote": "\"Their customer-centric approach and attention to detail made the entire process seamless and enjoyable.\""
+        }
+      ]
+    },
+    "footer": {
+      "rights": "© 2025 Construye-App. All rights reserved."
+    },
+    "pricing": {
+      "title": "Our Plans",
+      "plans": [
+        {
+          "title": "Basic",
+          "price": "$99 USD",
+          "features": [
+            "Informational website",
+            "1 main page",
+            "Email support"
+          ],
+          "cta": "Choose Basic"
+        },
+        {
+          "title": "Intermediate",
+          "price": "$299 USD",
+          "features": [
+            "Up to 5 pages",
+            "Contact form",
+            "Priority support"
+          ],
+          "cta": "Choose Intermediate"
+        },
+        {
+          "title": "Premium",
+          "price": "$599 USD",
+          "features": [
+            "Custom website",
+            "Advanced integrations",
+            "24/7 support"
+          ],
+          "cta": "Choose Premium"
+        }
+      ]
+    }
+  },
+  "es": {
+    "navigation": {
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "about": "Nosotros",
+      "contact": "Contacto",
+      "quote": "Cotiza tu proyecto"
+    },
+    "hero": {
+      "title": "Construimos las aplicaciones que impulsan tu negocio",
+      "subtitle": "Transforma tus ideas en realidad con nuestro equipo de expertos. Nos especializamos en crear soluciones de software a medida para tus necesidades empresariales únicas.",
+      "form_placeholder": "Tu Email",
+      "form_button": "Enviar"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "items": [
+        {
+          "title": "Desarrollo Web",
+          "description": "Creación de aplicaciones web responsivas y escalables utilizando las últimas tecnologías."
+        },
+        {
+          "title": "Desarrollo de Software a Medida",
+          "description": "Construcción de soluciones de software a medida para abordar complejos desafíos empresariales."
+        },
+        {
+          "title": "Diseño UI/UX",
+          "description": "Creación de experiencias de usuario intuitivas y atractivas que impulsan la satisfacción del usuario."
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Portafolio",
+      "items": [
+        {
+          "title": "Proyecto Alpha",
+          "description": "Una plataforma de e-commerce de vanguardia construida con React y Node.js.",
+          "link": "Ver caso de estudio"
+        },
+        {
+          "title": "Proyecto Beta",
+          "description": "Un robusto sistema CRM desarrollado con Python y Django.",
+          "link": "Ver caso de estudio"
+        },
+        {
+          "title": "Proyecto Gamma",
+          "description": "Una innovadora aplicación móvil diseñada para iOS y Android usando Flutter.",
+          "link": "Ver caso de estudio"
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Por Qué Elegirnos",
+      "items": [
+        {
+          "title": "Equipo Experto",
+          "description": "Nuestro equipo está compuesto por desarrolladores, diseñadores y gerentes de proyecto experimentados dedicados a entregar excelencia."
+        },
+        {
+          "title": "Metodología Ágil",
+          "description": "Empleamos prácticas de desarrollo ágil para garantizar flexibilidad, transparencia e iteración rápida."
+        },
+        {
+          "title": "Enfoque en el Cliente",
+          "description": "Priorizamos tus necesidades y trabajamos estrechamente contigo durante todo el proceso de desarrollo."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonios",
+      "items": [
+        {
+          "name": "Isabella Rossi",
+          "title": "CEO de Innovate Solutions",
+          "quote": "\"Construye transformó nuestra visión en realidad. Su experiencia y dedicación son inigualables.\""
+        },
+        {
+          "name": "Lucas Silva",
+          "title": "Fundador de NextGen Tech",
+          "quote": "\"El enfoque ágil del equipo nos mantuvo involucrados y aseguró que el producto final superara nuestras expectativas.\""
+        },
+        {
+          "name": "Sofia Bianchi",
+          "title": "Directora de Operaciones en Global Enterprises",
+          "quote": "\"Su enfoque centrado en el cliente y la atención al detalle hicieron que todo el proceso fuera fluido y agradable.\""
+        }
+      ]
+    },
+    "footer": {
+      "rights": "© 2025 Construye-App. Todos los derechos reservados."
+    },
+    "pricing": {
+      "title": "Nuestros Planes",
+      "plans": [
+        {
+          "title": "Básico",
+          "price": "$99 USD",
+          "features": [
+            "Sitio web informativo",
+            "1 página principal",
+            "Soporte por email"
+          ],
+          "cta": "Elegir Básico"
+        },
+        {
+          "title": "Intermedio",
+          "price": "$299 USD",
+          "features": [
+            "Hasta 5 páginas",
+            "Formulario de contacto",
+            "Soporte prioritario"
+          ],
+          "cta": "Elegir Intermedio"
+        },
+        {
+          "title": "Premium",
+          "price": "$599 USD",
+          "features": [
+            "Sitio web personalizado",
+            "Integraciones avanzadas",
+            "Soporte 24/7"
+          ],
+          "cta": "Elegir Premium"
+        }
+      ]
+    }
+  }
+}
