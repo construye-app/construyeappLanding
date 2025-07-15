@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '../theme-provider';
+import { Link } from 'react-router-dom';
 
 export function Header() {
   const { t, i18n } = useTranslation();
@@ -51,9 +52,11 @@ export function Header() {
             {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </Button>
           {/* Botón de cotización */}
-          <Button className="rounded-full bg-[#e2d9f7] text-black font-semibold px-5 py-2 text-xs shadow-none hover:bg-[#cfc2e9] transition hidden md:block">
-            {t('navigation.quote')}
-          </Button>
+          <Link to="/cotizador">
+            <Button className="rounded-full bg-[#e2d9f7] text-black font-semibold px-5 py-2 text-xs shadow-none hover:bg-[#cfc2e9] transition hidden md:block">
+              {t('navigation.quote')}
+            </Button>
+          </Link>
         </div>
       </div>
     </header>
