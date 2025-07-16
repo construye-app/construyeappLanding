@@ -125,7 +125,7 @@ export function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="src/images/web-app.svg"
+              src="/images/web-app.svg"
               alt="Code example"
               className="w-[220px] h-[220px] md:w-[320px] md:h-[320px] object-contain bg-transparent rounded-xl "
             />
