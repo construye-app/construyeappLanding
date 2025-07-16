@@ -12,7 +12,7 @@ export function Portfolio() {
       className="py-20 bg-[#18151c] dark:bg-[#18151c] bg-[#f7f5fa]"
     >
       <div className="container mx-auto px-4 max-w-[1300px]">
-        <h2 className="text-3xl font-bold text-white dark:text-white text-[#2d2342] text-center">
+        <h2 className="text-3xl font-bold text-blue-900 dark:text-white text-[#2d2342] text-center">
           {t('portfolio.title')}
         </h2>
         <div className="mt-8 grid gap-8 md:grid-cols-3">

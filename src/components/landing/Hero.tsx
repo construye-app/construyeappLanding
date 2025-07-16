@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useEffect, useState } from 'react';
+import { BrandCarousel } from '@/components/landing/BrandCarousel';
 
 
 const countryPrefixes = [
@@ -105,21 +106,35 @@ export function Hero() {
   };
 
   return (
-    <section className="py-20 bg-[#f7f5fa] dark:bg-[#18151c]">
-      <div className="container mx-auto px-4 max-w-[1300px]">
+    <section className="relative py-20 bg-[#f7f5fa] dark:bg-[#18151c] overflow-hidden w-full">
+      {/* Imagen de fondo parallax */}
+      <div
+        className="absolute inset-0 w-full h-full z-0"
+        style={{
+          backgroundImage: "url('/images/hero-bg.jpg')",
+          backgroundAttachment: 'fixed',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          opacity: 0.18,
+          filter: 'blur(1px)',
+        }}
+        aria-hidden="true"
+      />
+      <div className="relative container mx-auto px-4 max-w-[1300px] z-10">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/landing1.jpg"
+              src="src/images/web-app.svg"
               alt="Code example"
-              className="rounded-xl shadow-lg object-cover w-[350px] h-[260px] md:w-[400px] md:h-[320px] bg-[#ede7f6] dark:bg-transparent"
+              className="w-[220px] h-[220px] md:w-[320px] md:h-[320px] object-contain bg-transparent rounded-xl "
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-col items-start justify-center">
             <h1 className="text-4xl md:text-5xl font-extrabold text-left mb-4 leading-tight text-[#2d2342] dark:text-white">
               {t('hero.title')}
             </h1>
-            <p className="mb-8 text-base md:text-lg text-[#5e548e] dark:text-[#bdb6c9] text-left max-w-md">
+            <p className="mb-8 text-base md:text-lg text-gray-800 dark:text-[#fff] text-left max-w-md">
               {t('hero.subtitle')}
             </p>
             {/* ✅ Mensaje de éxito */}
@@ -183,7 +198,7 @@ export function Hero() {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-[#e2d9f7] text-[#2d2342] dark:text-black font-semibold px-6 py-2 rounded-xl shadow-none hover:bg-[#d1c4e9] transition"
+                  className="bg-blue-900 text-white dark:text-black font-semibold px-6 py-2 rounded-full shadow-none hover:bg-blue-800 transition dark:text-white"
                 >
                   {isSubmitting ? 'Enviando...' : t('hero.form_button')}
                 </Button>
@@ -193,6 +208,7 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </section>  
+    
   );
 }
