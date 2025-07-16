@@ -1,0 +1,48 @@
+============================
+   PALETA DE COLORES
+============================
+
+1. PRIMARY COLOR - Azul Profundo
+   Hex: #1E3A8A
+   Tailwind: text-blue-900 / bg-blue-900 / hover:bg-blue-800
+
+2. SECONDARY COLOR - Verde Tecnológico
+   Hex: #48BB78
+   Tailwind: text-green-500 / bg-green-500 / hover:bg-green-400
+
+3. ACCENT COLOR - Amarillo Destacado
+   Hex: #FBBF24
+   Tailwind: text-yellow-500 / bg-yellow-500 / hover:bg-yellow-400
+
+4. DANGER COLOR - Rojo Moderno
+   Hex: #EF4444
+   Tailwind: text-red-500 / bg-red-500 / hover:bg-red-400
+
+5. NEUTRAL DARK - Gris Oscuro (Texto Principal)
+   Hex: #1F2937
+   Tailwind: text-gray-800 / bg-gray-800
+
+6. NEUTRAL LIGHT - Gris Claro (Fondo Principal)
+   Hex: #F9FAFB
+   Tailwind: text-gray-100 / bg-gray-50 / hover:bg-gray-100
+
+7. WHITE - Blanco Puro
+   Hex: #FFFFFF
+   Tailwind: text-white / bg-white
+
+8. BLACK - Negro Puro
+   Hex: #000000
+   Tailwind: text-black / bg-black
+
+----------------------------
+Uso recomendado:
+----------------------------
+
+Botones primarios: bg-blue-900 text-white
+Botones secundarios: bg-green-500 text-white
+Alertas: bg-yellow-500 text-white
+Errores: bg-red-500 text-white
+Fondo principal: bg-gray-50
+Fondo secciones claras: bg-white
+Textos principales: text-gray-800
+Links destacados: hover:text-blue-600
