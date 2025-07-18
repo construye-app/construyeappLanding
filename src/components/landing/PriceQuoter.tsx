@@ -146,12 +146,15 @@ function PriceDisplay({ price }: PriceDisplayProps) {
   );
 }
 
-export function PriceQuoter() {
+export function PriceQuoter({ hideBackButtonOnMobile = false }: { hideBackButtonOnMobile?: boolean }) {
   const [service, setService] = useState<string>('');
   const [options, setOptions] = useState<Options>({ dominioHosting: false, disenoWeb: false, agregarProductos: false, subidaTienda: false });
   const [modalOpen, setModalOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const navigate = useNavigate();
+
+  // Detectar si es móvil
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
   let price = 0;
   if (service) {
@@ -178,14 +181,17 @@ export function PriceQuoter() {
           >
             Quiero cotizar
           </Button>
-          <Button
-            type="button"
-            className="w-full"
-            variant="outline"
-            onClick={() => navigate('/')}
-          >
-            Volver al inicio
-          </Button>
+          {/* Mostrar el botón solo si no está oculto en móvil */}
+          {!(hideBackButtonOnMobile && isMobile) && (
+            <Button
+              type="button"
+              className="w-full"
+              variant="outline"
+              onClick={() => navigate('/')}
+            >
+              Volver al inicio
+            </Button>
+          )}
         </div>
         <Dialog open={modalOpen} onOpenChange={setModalOpen}>
           <DialogContent className="bg-white dark:bg-[#18151c]">
