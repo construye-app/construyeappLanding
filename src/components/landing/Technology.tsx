@@ -49,20 +49,7 @@ export function Technology() {
 	}, [total]);
 
 	// Flechas manuales
-	const handlePrev = () => {
-		setStartIdx((prev) => (prev - 1 + total) % total);
-		resetInterval();
-	};
-	const handleNext = () => {
-		setStartIdx((prev) => (prev + 1) % total);
-		resetInterval();
-	};
-	const resetInterval = () => {
-		if (intervalRef.current) clearInterval(intervalRef.current);
-		intervalRef.current = setInterval(() => {
-			setStartIdx((prev) => (prev + 1) % total);
-		}, 2500);
-	};
+	
 
 	// Obtener las tecnologías visibles
 	const visibleTechs: TechnologyType[] = Array.from(

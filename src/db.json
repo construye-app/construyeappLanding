@@ -91,37 +91,64 @@
       "rights": "© 2025 Construye-App. All rights reserved."
     },
     "pricing": {
-      "title": "Our Plans",
+      "subtitle": "Our Pricing Plans",
+      "title": "Pricing and Plans",
+      "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "payMonthly": "Pay Monthly",
+      "payYearly": "Pay Yearly",
+      "perMonth": "/Month (annually billed)",
+      "perYear": "/Year (annually billed)",
+      "bestChoice": "BEST CHOICE",
+      "toggleLabel": "Pay yearly",
       "plans": [
         {
-          "title": "Basic",
-          "price": "$99 USD",
+          "title": "Standard Plan",
+          "price": "$38.89",
+          "oldPrice": "$85",
+          "priceYearly": "$38.89",
+          "oldPriceYearly": "$85",
+          "saveText": "SAVE UP TO $54.89",
           "features": [
-            "Informational website",
-            "1 main page",
-            "Email support"
+            "Priority email & chat support",
+            "Lifetime Access and Free Updates",
+            "Generate 1,000 AI Words/ month",
+            "Personal and Commercial Use",
+            "Personal and Commercial Use"
           ],
-          "cta": "Choose Basic"
+          "cta": "Choose Plan",
+          "highlight": true
         },
         {
-          "title": "Intermediate",
-          "price": "$299 USD",
+          "title": "Standard Plan",
+          "price": "$38.89",
+          "oldPrice": "$85",
+          "priceYearly": "$38.89",
+          "oldPriceYearly": "$85",
+          "saveText": "SAVE UP TO $54.89",
           "features": [
-            "Up to 5 pages",
-            "Contact form",
-            "Priority support"
+            "Priority email & chat support",
+            "Lifetime Access and Free Updates",
+            "Generate 1,000 AI Words/ month",
+            "Personal and Commercial Use",
+            "Personal and Commercial Use"
           ],
-          "cta": "Choose Intermediate"
+          "cta": "Choose Plan"
         },
         {
-          "title": "Premium",
-          "price": "$599 USD",
+          "title": "Standard Plan",
+          "price": "$38.89",
+          "oldPrice": "$85",
+          "priceYearly": "$38.89",
+          "oldPriceYearly": "$85",
+          "saveText": "SAVE UP TO $54.89",
           "features": [
-            "Custom website",
-            "Advanced integrations",
-            "24/7 support"
+            "Priority email & chat support",
+            "Lifetime Access and Free Updates",
+            "Generate 1,000 AI Words/ month",
+            "Personal and Commercial Use",
+            "Personal and Commercial Use"
           ],
-          "cta": "Choose Premium"
+          "cta": "Choose Plan"
         }
       ]
     }
@@ -218,37 +245,62 @@
       "rights": "© 2025 Construye-App. Todos los derechos reservados."
     },
     "pricing": {
-      "title": "Nuestros Planes",
+      "subtitle": "Nuestros Planes",
+      "title": "Precios y Planes",
+      "description": "Puedes contratar nuestros servicios de forma mensual o anual si quieres algo mas personalizado te invitamos a realizar una cotizacion y te responderemos lo mas pronto posible.",
+      "payMonthly": "Pago Mensual",
+      "payYearly": "Pago Anual",
+      "perMonth": "/Mes (facturado mensualmente)",
+      "perYear": "/Año (facturado anualmente)",
+      "bestChoice": "MEJOR OPCIÓN",
+      "toggleLabel": "Pago anual",
       "plans": [
         {
-          "title": "Básico",
-          "price": "$99 USD",
+          "title": "Plan Estándar",
+          "price": "$49.99",
+          "oldPrice": "$100",
+          "priceYearly": "$49.99",
+          "oldPriceYearly": "$100",
+          "saveText": "AHORRA HASTA $49.99",
           "features": [
-            "Sitio web informativo",
-            "1 página principal",
-            "Soporte por email"
-          ],
-          "cta": "Elegir Básico"
+            "Diseño e implementacion de landing page",
+            "configuracio de formulario de contacto",
+            "seccion administrativa para el cliente"
+           ],
+          "cta": "Elegir Plan",
+          "highlight": true
         },
         {
-          "title": "Intermedio",
-          "price": "$299 USD",
+          "title": "Plan Estándar",
+          "price": "$99.99",
+          "oldPrice": "$81",
+          "priceYearly": "$38.89",
+          "oldPriceYearly": "$85",
+          "saveText": "AHORRA HASTA $54.89",
           "features": [
-            "Hasta 5 páginas",
-            "Formulario de contacto",
-            "Soporte prioritario"
+            "Soporte prioritario por email y chat",
+            "Acceso de por vida y actualizaciones gratis",
+            "Genera 1,000 palabras AI/ mes",
+            "Uso personal y comercial",
+            "Uso personal y comercial"
           ],
-          "cta": "Elegir Intermedio"
+          "cta": "Elegir Plan"
         },
         {
-          "title": "Premium",
-          "price": "$599 USD",
+          "title": "Plan Estándar",
+          "price": "$38.89",
+          "oldPrice": "$85",
+          "priceYearly": "$38.89",
+          "oldPriceYearly": "$85",
+          "saveText": "AHORRA HASTA $54.89",
           "features": [
-            "Sitio web personalizado",
-            "Integraciones avanzadas",
-            "Soporte 24/7"
+            "Soporte prioritario por email y chat",
+            "Acceso de por vida y actualizaciones gratis",
+            "Genera 1,000 palabras AI/ mes",
+            "Uso personal y comercial",
+            "Uso personal y comercial"
           ],
-          "cta": "Elegir Premium"
+          "cta": "Elegir Plan"
         }
       ]
     }
