@@ -32,21 +32,34 @@
     },
     "portfolio": {
       "title": "Portfolio",
+      "client": "Client:",
+      "viewMore": "View More Portfolio",
       "items": [
         {
-          "title": "Project Alpha",
-          "description": "A cutting-edge e-commerce platform built with React and Node.js.",
-          "link": "View case study"
+          "title": "Telefónica - E-commerce",
+          "description": "E-commerce platform developed for Telefónica using Magento. Robust solution for selling telecommunications products and services with corporate systems integration.",
+
+          "image": "/images/telefonica.png",
+          "technologies": ["Magento", "PHP", "MySQL", "JavaScript"],
+          "client": "Telefónica",
+          "category": "E-commerce"
         },
         {
-          "title": "Project Beta",
-          "description": "A robust CRM system developed using Python and Django.",
-          "link": "View case study"
+          "title": "Radio Shack - Magento Modules",
+          "description": "Development of custom Magento modules for Radio Shack. Creation of specific functionalities to enhance the shopping experience and inventory management on the e-commerce platform.",
+
+          "image": "/images/radioshack.webp",
+          "technologies": ["Magento", "PHP", "MySQL", "XML", "JavaScript"],
+          "client": "Radio Shack",
+          "category": "Module Development"
         },
         {
-          "title": "Project Gamma",
-          "description": "An innovative mobile app designed for iOS and Android using Flutter.",
-          "link": "View case study"
+          "title": "CEPRE UNI - Academic System",
+          "description": "Web platform developed for the Pre-University Center of the National University of Engineering. Comprehensive system for academic management, registrations, evaluations and tracking of pre-university students.",
+          "image": "/images/t-b8.svg",
+          "technologies": ["Angular", "PHP", "CSS", "MySQL"],
+          "client": "CEPRE UNI",
+          "category": "Academic System"
         }
       ]
     },
@@ -186,21 +199,34 @@
     },
     "portfolio": {
       "title": "Portafolio",
+      "client": "Cliente:",
+      "viewMore": "Ver Más Portfolio",
       "items": [
         {
-          "title": "Proyecto Alpha",
-          "description": "Una plataforma de e-commerce de vanguardia construida con React y Node.js.",
-          "link": "Ver caso de estudio"
+          "title": "Telefónica - E-commerce",
+          "description": "Plataforma de e-commerce desarrollada para Telefónica utilizando Magento. Solución robusta para la venta de productos y servicios de telecomunicaciones con integración de sistemas corporativos.",
+
+          "image": "/images/telefonica.png",
+          "technologies": ["Magento", "PHP", "MySQL", "JavaScript"],
+          "client": "Telefónica",
+          "category": "E-commerce"
         },
         {
-          "title": "Proyecto Beta",
-          "description": "Un robusto sistema CRM desarrollado con Python y Django.",
-          "link": "Ver caso de estudio"
+          "title": "Radio Shack - Módulos Magento",
+          "description": "Desarrollo de módulos personalizados para Magento destinados a Radio Shack. Creación de funcionalidades específicas para mejorar la experiencia de compra y gestión de inventario en la plataforma de e-commerce.",
+
+          "image": "/images/radioshack.webp",
+          "technologies": ["Magento", "PHP", "MySQL", "XML", "JavaScript"],
+          "client": "Radio Shack",
+          "category": "Desarrollo de Módulos"
         },
         {
-          "title": "Proyecto Gamma",
-          "description": "Una innovadora aplicación móvil diseñada para iOS y Android usando Flutter.",
-          "link": "Ver caso de estudio"
+          "title": "CEPRE UNI - Sistema Académico",
+          "description": "Plataforma web desarrollada para el Centro Pre Universitario de la Universidad Nacional de Ingeniería. Sistema integral para gestión académica, inscripciones, evaluaciones y seguimiento de estudiantes preuniversitarios.",
+          "image": "/images/t-b8.svg",
+          "technologies": ["Angular", "PHP", "CSS", "MySQL"],
+          "client": "CEPRE UNI",
+          "category": "Sistema Académico"
         }
       ]
     },
