@@ -8,6 +8,7 @@ import { ArrowLeft, ChevronRight, Home, Globe2 } from 'lucide-react';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Header } from '@/components/landing/Header';
 import { Footer } from '@/components/landing/Footer';
+import { WhatsAppFloat } from '@/components/WhatsAppFloat';
 
 interface PortfolioItem {
   title: string;
@@ -200,6 +201,7 @@ export default function Portfolio() {
           </div>
         </main>
         <Footer />
+        <WhatsAppFloat />
         
         {/* Selector de idioma flotante - Solo móvil */}
         <div className="fixed left-0 right-0 bottom-0 z-50 md:hidden">

@@ -9,6 +9,7 @@ import { Testimonials } from '@/components/landing/Testimonials';
 import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
 import { BrandCarousel } from '@/components/landing/BrandCarousel';
+import { WhatsAppFloat } from '@/components/WhatsAppFloat';
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
           </div>
         </main>
         <Footer />
+        <WhatsAppFloat />
       </div>
     </ThemeProvider>
   );
