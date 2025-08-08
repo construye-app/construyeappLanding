@@ -11,11 +11,14 @@ export function Header({ hideNavigation = false }: HeaderProps) {
 
   return (
     <header className="bg-blue-900 border-b border-gray-800 sticky top-0 z-30 w-full">
-      <div className="container mx-auto px-4 flex items-center justify-between p-3 min-h-14">
+      <div className="container mx-auto px-4 py-5 flex items-center justify-between p-3 min-h-14">
         {/* Logo a la izquierda */}
-        <Link to="/" className="flex items-center space-x-2">
-          <span className="text-lg text-yellow-500">✦</span>
-          <span className="font-bold text-base text-white">Construye</span>
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/images/construyapp.svg" 
+            alt="Construye App" 
+            className="h-10 w-auto"
+          />
         </Link>
         {/* CTA Cotizar - Siempre visible */}
         <Link to="/cotizador" className="block md:hidden">
