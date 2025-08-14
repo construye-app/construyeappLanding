@@ -165,7 +165,7 @@ export function ContactForm({ title }: { title?: string }) {
             <select
               value={countryCode}
               onChange={(e) => setCountryCode(e.target.value)}
-              className="w-full md:w-28 px-1 py-2 border rounded-md bg-transparent border-[#e2d9f7] text-[#2d2342] md:transition-none lg:transition-colors"
+              className="w-full md:w-28 px-1 py-2 border rounded-md bg-white border-[#e2d9f7] text-[#2d2342] md:transition-none lg:transition-colors"
             >
               {countryPrefixes.map((c) => (
                 <option key={c.code} value={c.code}>
@@ -183,11 +183,12 @@ export function ContactForm({ title }: { title?: string }) {
               className="flex-1 min-w-0"
             />
           </div>
-          <div className="flex justify-center md:justify-end">
+          <div className="flex justify-center mt-6 pt-6">
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="bg-blue-900 text-white font-semibold px-6 py-2 rounded-full shadow-none hover:bg-blue-800 transition w-full md:w-auto"
+              size="lg"
+              className="bg-lime-500 text-white font-semibold px-8 py-3 rounded-full shadow-none hover:bg-lime-400 transition w-full"
             >
               {isSubmitting ? 'Enviando...' : t('hero.form_button')}
             </Button>

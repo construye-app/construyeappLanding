@@ -48,12 +48,12 @@ export function Hero() {
   ];
 
   return (
-    <section className="relative py-20 bg-[#f7f5fa] overflow-hidden w-full min-h-screen">
+    <section className="relative py-16 bg-[#f7f5fa] overflow-hidden w-full">
       {/* Imagen de fondo parallax */}
       <div
         className="absolute inset-0 w-full h-full z-0"
         style={{
-          backgroundImage: "url('/images/hero-bg.jpg')",
+          backgroundImage: "url('/images/hero-bg.jpg2')",
           backgroundAttachment: 'fixed',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -65,21 +65,23 @@ export function Hero() {
       />
       <div className="relative container mx-auto px-4 max-w-[1300px] z-10">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="/images/web-app.svg"
-              alt="Code example"
-              className="w-[220px] h-[220px] md:w-[320px] md:h-[320px] object-contain bg-transparent rounded-xl "
-            />
-          </div>
+          {/* Columna izquierda - Solo título y subtítulo */}
           <div className="w-full md:w-1/2 flex flex-col items-start justify-center">
-            <h1 className="text-4xl md:text-5xl font-extrabold text-left mb-4 leading-tight text-[#2d2342]">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-left mb-4 leading-tight text-black">
               {t('hero.title')}
             </h1>
-            <p className="mb-8 text-base md:text-lg text-gray-800 text-left max-w-md">
+            <p className="mb-8 text-base md:text-lg lg:text-xl text-black text-left max-w-md font-normal">
               {t('hero.subtitle')}
             </p>
-            <ContactForm />
+          </div>
+          {/* Columna derecha - Formulario con estilo visual de la imagen */}
+          <div className="w-full md:w-1/2 flex justify-center">
+            <div className="bg-blue-900 rounded-2xl p-6 md:p-8 w-full max-w-[380px] h-auto min-h-[320px] flex flex-col justify-center shadow-xl">
+              {/* Contenedor del formulario real */}
+              <div className="w-full h-full">
+                <ContactForm />
+              </div>
+            </div>
           </div>
         </div>
       </div>
